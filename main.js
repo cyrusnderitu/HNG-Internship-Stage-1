@@ -14,10 +14,10 @@ const d = new Date();
 const siku = d.getDay();
 
 d_date.innerHTML = Days[siku];
-const hour = d.getUTCHours();
-const minute = d.getUTCMinutes();
-const seconds = d.getUTCSeconds();
-const UTCTime = `${hour}: ${minute}: ${seconds}`;
+
 setInterval(() => {
-  d_time.innerText = UTCTime;
+  const d = new Date();
+  return (d_time.innerHTML = ` ${
+    d.getUTCHours() + ":" + d.getUTCMinutes() + ":" + d.getUTCSeconds()
+  }`);
 }, 1000);
