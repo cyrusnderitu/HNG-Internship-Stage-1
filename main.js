@@ -13,9 +13,9 @@ const Days = [
 const d = new Date();
 const siku = d.getDay();
 
-d_date.innerHTML = Days[siku];
+d_date.innerHTML = `<span data-testid="currentDayOfTheWeek">${Days[siku]}</span>`;
 
 setInterval(() => {
   const d = new Date();
-  return (d_time.innerHTML = ` ${d.getUTCMilliseconds()}`);
+  return (d_time.innerHTML = `<span data-testid="currentUTCTime">${d.getUTCMilliseconds()}<span>`);
 }, 1000);
