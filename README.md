@@ -8,7 +8,11 @@ HNG Internship Stage 1 Web Page
 - [Awesome README](https://github.com/matiassingers/awesome-readme)
 - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
 
-## Authors
+## Demo
+
+- [Project Demo](https://cyrusnderitu.github.io/HNG-Internship-Stage-1/)
+
+## Author
 
 - [@cyrusnderitu](https://www.github.com/cyrusnderitu)
 
