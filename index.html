@@ -10,9 +10,14 @@
     <div class="card-cont">
       <div class="bg"></div>
       <div class="prof-img">
-        <img class="img" src="./Assets/passport.JPG" alt="user" />
+        <img
+          class="img"
+          src="./Assets/passport.JPG"
+          alt="Cyrus Nderitu"
+          data-testid="slackDisplayImage"
+        />
       </div>
-      <h2 data-testid="Cyrus Nderitu">Cyrus Nderitu</h2>
+      <h2 data-testid="slackUserName">Cyrus Nderitu</h2>
       <h4>Kenya, Nairobi</h4>
       <p data-testid="myTrack" class="track">Frontend</p>
       <div class="dateTime">
@@ -20,14 +25,14 @@
           <p>Day of Week</p>
           <p>
             Day:
-            <span class="date"></span>
+            <span class="date" data-testid="currentDayOfTheWeek"></span>
           </p>
         </div>
         <div class="time">
           <p>Current UTC Time</p>
           <p>
             Time
-            <span class="utc"></span>
+            <span class="utc" data-testid="currentUTCTime"></span>
           </p>
         </div>
       </div>

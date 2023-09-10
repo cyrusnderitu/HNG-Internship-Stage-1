@@ -17,7 +17,5 @@ d_date.innerHTML = Days[siku];
 
 setInterval(() => {
   const d = new Date();
-  return (d_time.innerHTML = ` ${
-    d.getUTCHours() + ":" + d.getUTCMinutes() + ":" + d.getUTCSeconds()
-  }`);
+  return (d_time.innerHTML = ` ${d.getUTCMilliseconds()}`);
 }, 1000);
