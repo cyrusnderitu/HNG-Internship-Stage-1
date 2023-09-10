@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Profile Card</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="card-cont">
+      <div class="bg"></div>
+      <div class="prof-img">
+        <img class="img" src="./Assets/passport.JPG" alt="user" />
+      </div>
+      <h2 data-testid="Cyrus Nderitu">Cyrus Nderitu</h2>
+      <h4>Kenya, Nairobi</h4>
+      <p data-testid="myTrack" class="track">Frontend</p>
+      <div class="dateTime">
+        <div class="day">
+          <p>Day of Week:</p>
+          <span class="date"></span>
+        </div>
+        <div class="time">
+          <p>Current UTC Time:</p>
+          <span class="utc"></span>
+        </div>
+      </div>
+      <div class="skills">
+        <h4>Skills</h4>
+        <ul>
+          <li>Front End Development</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+        </ul>
+      </div>
+      <div class="git-prof">
+        <a
+          href="http://github.com/cyrusnderitu"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-testid="githubURL"
+          >Github Profile</a
+        >
+      </div>
+    </div>
+    <script src="/main.js"></script>
+  </body>
+</html>
